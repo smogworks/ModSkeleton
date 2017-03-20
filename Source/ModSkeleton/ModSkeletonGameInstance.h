@@ -20,7 +20,7 @@
 #include "ModSkeletonGameInstance.generated.h"
 
 /**
- * 
+ * Helper game instance to create a registry object and allow access to it through the bp function lib
  */
 UCLASS()
 class MODSKELETON_API UModSkeletonGameInstance : public UPlatformGameInstance
@@ -34,5 +34,4 @@ public:
 	
 	UPROPERTY(BlueprintReadOnly, Category="ModSkeleton")
 	UModSkeletonRegistry* ModRegistry;
-
 };

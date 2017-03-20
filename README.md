@@ -27,6 +27,7 @@ limitations under the License.
 
 1. Clone the Repo
 1. Open ModSkeleton.uproject
+1. Be sure to select "View Options" -> "Show Plugin Content" in the Content browser to see Example Plugin Content
 1. Disable the ModSkeletonExamplePluginA plugin (Edit -> Plugins -> "ModSkeleton" section)
 1. Open the "Project Launcher" (Launch:side arrow -> "Project Launcher")
 1. Execute the "ModSkeletonMain" launch profile for your platform

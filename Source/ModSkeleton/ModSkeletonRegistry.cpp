@@ -67,11 +67,13 @@ void UModSkeletonRegistry::ScanForModPlugins()
 	FPaths::NormalizeDirectoryName(PakPath);
 	FString BinSearch = PakPath + "/*.bin";
 
+	// First, search for all AssetRegistry *.bin files in the Paks directory
 	TArray<FString> Files;
 	FileManager.FindFiles(Files, *BinSearch, true, false);
 	UE_LOG(ModSkeletonLog, Log, TEXT("Searching for Pak AssetRegistries: %s"), *BinSearch);
 
-	for (int32 i = 0; i < Files.Num(); ++i) {
+	for (int32 i = 0; i < Files.Num(); ++i)
+	{
 		FString BinFilename = PakPath + TEXT("/") + Files[i];
 		FPaths::MakeStandardFilename(BinFilename);
 		UE_LOG(ModSkeletonLog, Log, TEXT(" - AssetRegistry: %s"), *BinFilename);
@@ -83,13 +85,17 @@ void UModSkeletonRegistry::ScanForModPlugins()
 		FString PakFilename = PathPart + "/" + FilenamePart + ".pak";
 		FPaths::MakeStandardFilename(PakFilename);
 
-		if (LoadedPaks.Contains(PakFilename)) {
+		if (LoadedPaks.Contains(PakFilename))
+		{
 			continue;
 		}
 
+		// Only process Mods that have BOTH the .bin registry and the .pak content files
 		if (FPaths::FileExists(PakFilename))
 		{
 			UE_LOG(ModSkeletonLog, Log, TEXT("Attempting PakLoad: %s"), *PakFilename);
+
+			// Mount the .pak content file
 
 			// TODO - Would prefer to use this, but I cannot seem to make the mount paths correct for it
 			//if (!FCoreDelegates::OnMountPak.Execute(PakFilename, 0, &DumpVisitor))
@@ -123,6 +129,8 @@ void UModSkeletonRegistry::ScanForModPlugins()
 			UE_LOG(ModSkeletonLog, Log, TEXT(" - Mounting At: %s"), *MountTarget);
 			FPackageName::RegisterMountPoint(TEXT("/") + FilenamePart + TEXT("/"), MountTarget);
 
+			// Load the asset registry .bin file into the in-memory AssetRegistry
+
 			FArrayReader SerializedAssetData;
 			if (FFileHelper::LoadFileToArray(SerializedAssetData, *BinFilename))
 			{
@@ -134,20 +142,29 @@ void UModSkeletonRegistry::ScanForModPlugins()
 			//PakPlatform->IterateDirectoryRecursively(*MountTarget, DumpVisitor);
 		}
 	}
+
+	// now that the content assets have been added, and the asset registry has been updated
+	// we need to search the in-memory AssetRegistry to find any MOD_SKELETON init interfaces
 	
 	TArray<FAssetData> AssetData;
 	AssetRegistry.GetAllAssets(AssetData);
 
 	UE_LOG(ModSkeletonLog, Log, TEXT("Searching for ModSkeleton Mod Assets:"));
 
-	for (int32 i = 0; i < AssetData.Num(); ++i) {
+	for (int32 i = 0; i < AssetData.Num(); ++i)
+	{
 		FString name = AssetData[i].AssetName.ToString();
-		if (name.StartsWith("MOD_SKELETON", ESearchCase::CaseSensitive)) {
+		if (name.StartsWith("MOD_SKELETON", ESearchCase::CaseSensitive))
+		{
 			UE_LOG(ModSkeletonLog, Log, TEXT(" - Asset: %s %s %s %s"), *name, *AssetData[i].PackagePath.ToString(), *AssetData[i].ObjectPath.ToString(), *AssetData[i].AssetClass.ToString());
 
-			if (LoadedPlugins.Contains(AssetData[i].ObjectPath)) {
+			if (LoadedPlugins.Contains(AssetData[i].ObjectPath))
+			{
 				continue;
 			}
+
+			// TODO - this is loading Blueprint Interfaces
+			// make this work with C++ interfaces as well!
 
 			UClass* AssetClass = LoadObject<UClass>(nullptr, *(TEXT("Class'") + AssetData[i].ObjectPath.ToString() + TEXT("_C'")));
 			if (AssetClass != nullptr)
@@ -155,26 +172,10 @@ void UModSkeletonRegistry::ScanForModPlugins()
 				UObject *RealObj = NewObject<UObject>(this, AssetClass);
 				if (RealObj->GetClass()->ImplementsInterface(UModSkeletonPluginInterface::StaticClass()))
 				{
+					// Invoke the ModSkeletonInit hook - this is invoked exactly once for every mod right at load.
+
 					TArray< UBPVariant* > HookIO;
 					IModSkeletonPluginInterface::Execute_ModSkeletonHook(RealObj, TEXT("ModSkeletonInit"), HookIO);
-
-					//FString PlugName;
-					//TSubclassOf<UUserWidget> ModDescription;
-					//IModSkeletonPluginInterface::Execute_ModSkeletonInitialize(RealObj, PlugName, ModDescription);
-
-					//TArray< UBPVariant* > InParams;
-					//TArray< UBPVariant* > OutResults;
-					//IModSkeletonPluginInterface::Execute_ModSkeletonHook(RealObj, TEXT("ModSkeletonInit"), InParams, OutResults);
-
-					//for (int32 i = 0; i < OutResults.Num(); ++i)
-					//{
-					//	UE_LOG(ModSkeletonLog, Warning, TEXT("%s"), *OutResults[i]->GetDebugValue());
-					//}
-
-					//UModSkeletonPluginRef* PlugRef = NewObject<UModSkeletonPluginRef>(this, UModSkeletonPluginRef::StaticClass());
-					//PlugRef->ModName = PlugName;
-					//PlugRef->ModObject = RealObj;
-					//PlugRef->ModDescription = ModDescription;
 
 					LoadedPlugins.Add(AssetData[i].ObjectPath, RealObj);
 				}
@@ -205,6 +206,15 @@ TArray< FModSkeletonHookDescription > UModSkeletonRegistry::ListHooks()
 	return OutArray;
 }
 
+FModSkeletonHookDescription UModSkeletonRegistry::GetHookDescription(FString HookName)
+{
+	if (RegisteredHooks.Contains(HookName))
+	{
+		return RegisteredHooks[HookName];
+	}
+	return FModSkeletonHookDescription();
+}
+
 void UModSkeletonRegistry::ConnectHook(FString HookName, int32 Priority, UObject *ModSkeletonPluginInterface)
 {
 	if (!ModSkeletonPluginInterface->GetClass()->ImplementsInterface(UModSkeletonPluginInterface::StaticClass())) {
@@ -227,7 +237,10 @@ TArray< UBPVariant* > UModSkeletonRegistry::InvokeHook(FString HookName, const T
 		return HookIO;
 	}
 	UE_LOG(ModSkeletonLog, Log, TEXT("Invoke HookName: %s"), *HookName);
+
+	// We want to pass the RESULTS from the previous invocation in as the PARAMETERS to the next
 	TArray< UBPVariant* > CurHookIO = HookIO;
+
 	FModSkeletonHookDescription HookDescription = RegisteredHooks[HookName];
 	if (HookDescription.AlwaysInvoke) {
 		for (auto PlugRef : LoadedPlugins)

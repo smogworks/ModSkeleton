@@ -25,7 +25,7 @@ class UModSkeletonPluginInterface : public UInterface
 };
 
 /**
- * 
+ * This Interface allows communication between mods that have not yet been written
  */
 class MODSKELETON_API IModSkeletonPluginInterface
 {
@@ -33,6 +33,10 @@ class MODSKELETON_API IModSkeletonPluginInterface
 
 public:
 	
+	/**
+	 * Any "Connected" Hook that is invoked will invoke this function if you implement it.
+	 * If your uclass begins with the case-sensitive string "MOD_SKELETON" then "ModSkeletonInit" will also be invoked.
+	 */
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "ModSkeleton")
 	TArray< UBPVariant*> ModSkeletonHook(const FString& HookName, const TArray< UBPVariant* >& HookIO);
 };
