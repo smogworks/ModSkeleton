@@ -21,7 +21,7 @@
 #include "ModSkeletonBpFunctionLib.generated.h"
 
 /**
- * 
+ * Some blueprint helper functions to make working with ModSkeleton easier
  */
 UCLASS()
 class MODSKELETON_API UModSkeletonBpFunctionLib : public UBlueprintFunctionLibrary
@@ -32,9 +32,15 @@ class MODSKELETON_API UModSkeletonBpFunctionLib : public UBlueprintFunctionLibra
 
 public:
 
+	/**
+	 * Get access to the Registry singleton
+	 */
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "ModSkeleton")
 	static UModSkeletonRegistry* ModSkeletonRegistryGet();
 
+	/**
+	 * Helper compact BP node to dump the hook description struct
+	 */
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "ModSkeletonHookDescription", meta = (CompactNodeTitle = "FullDescription"))
 	static FString GetFullDescription(const FModSkeletonHookDescription& HookDescription);
 
