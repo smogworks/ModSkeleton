@@ -28,9 +28,8 @@ limitations under the License.
 1. Clone the Repo
 1. Open ModSkeleton.uproject
 1. Be sure to select "View Options" -> "Show Plugin Content" in the Content browser to see Example Plugin Content
+1. Follow [Instruction to Build Custom Launcher Profiles](doc/build_profiles/build_profiles.md)
 1. Disable the ModSkeletonExamplePluginA plugin (Edit -> Plugins -> "ModSkeleton" section)
-1. Create "Project Launcher" Custom profiles, as detailed in: https://wiki.unrealengine.com/Modding:_Adding_mod-support_to_your_Unreal_Engine_4_project
-1. Be sure the "Name of the dlc to build." in the second (plugin) profile is set to "ModSkeletonExamplePluginA"
 1. Execute the Full Game launch profile for your platform
 1. Enable the ModSkeletonExamplePluginA plugin
 1. Execute the Mod launch profile for you platform - note this may fail, but not before generating the needed .pak and AssetRegistry files
