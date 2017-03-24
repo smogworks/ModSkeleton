@@ -50,31 +50,31 @@ ModSkeleton Mods build on top of Unreal Engine 4's DLC system. In order to cook 
 
 ![Do Not Deploy](main_7_deploy.jpg)
 
-## 1 - The Mod (ModSkeletonExamplePluginA)
+## 2 - The Mod (ModSkeletonExamplePluginA)
 
-#### 1.1 - Open the Project Launcher
+#### 2.1 - Open the Project Launcher
 
 ![Open Project Launcher](open_project_launcher.jpg)
 
-#### 1.2 - Create a New Custom Profile
+#### 2.2 - Create a New Custom Profile
 
 ![Create Custom Profile](new_profile.jpg)
 
-#### 1.3 - Give Your Profile A Name
+#### 2.3 - Give Your Profile A Name
 
 ![Name Profile](plugin_1_name.jpg)
 
-#### 1.4 - Tell the Profile to Build
+#### 2.4 - Tell the Profile to Build
 
 ![Build](main_2_build.jpg)
 
-#### 1.5 - Tell it to Cook "By the Book"
+#### 2.5 - Tell it to Cook "By the Book"
 
 - pick the platform you would like to cook for
 
 ![Cook By the Book](main_3_cook_book.jpg)
 
-#### 1.6 - Cooking "Release" Settings
+#### 2.6 - Cooking "Release" Settings
 
 - Un-Check "Create a release version of the game for distribution"
 - Leave "Name of the new release to create" blank
@@ -84,19 +84,19 @@ ModSkeleton Mods build on top of Unreal Engine 4's DLC system. In order to cook 
 
 ![Cook Release Settings](plugin_4_cook_release.jpg)
 
-#### 1.7 - Cooking "Advanced" Settings
+#### 2.7 - Cooking "Advanced" Settings
 
 - Uncheck "Save packages without versions"
 - Check "Store all contents in a single file (UnrealPak)"
 
 ![Cook Advanced Settings](main_5_cook_advanced.jpg)
 
-#### 1.8 - Package Locally
+#### 2.8 - Package Locally
 
 - Set to Package and Store Locally
 
 ![Package and Store Locally](main_6_package.jpg)
 
-#### 1.9 - Do Not Deploy
+#### 2.9 - Do Not Deploy
 
 ![Do Not Deploy](main_7_deploy.jpg)

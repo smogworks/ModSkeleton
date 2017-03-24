@@ -28,7 +28,7 @@ limitations under the License.
 1. Clone the Repo
 1. Open ModSkeleton.uproject
 1. Be sure to select "View Options" -> "Show Plugin Content" in the Content browser to see Example Plugin Content
-1. Follow [Instruction to Build Custom Launcher Profiles](docs/build_profiles/build_profiles.md)
+1. Follow [Instruction to Build Custom Launcher Profiles](doc/build_profiles/build_profiles.md)
 1. Disable the ModSkeletonExamplePluginA plugin (Edit -> Plugins -> "ModSkeleton" section)
 1. Execute the Full Game launch profile for your platform
 1. Enable the ModSkeletonExamplePluginA plugin
