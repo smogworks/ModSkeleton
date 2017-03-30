@@ -12,3 +12,4 @@ Saved
 *.xcodeproj
 *.xcworkspace
 .DS_Store
+.ue4build*
