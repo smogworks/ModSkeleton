@@ -23,7 +23,17 @@ limitations under the License.
 - To be a go-to example for Unreal Engine 4 modding support.
 - To not require core engine changes - work with prebuilt UE4 Editor from Epig Games Launcher.
 
-## Get it Running
+## Get it Running (Scripted)
+
+1. Download NodeJS - https://nodejs.org
+1. Clone the Repo
+1. Run the build script once to generate a config: `node ue4build.js`
+1. Inspect the config (`.ue4build.json`), if you built ue4 from source, you may need to change the `uatCommand` path.
+1. Run the build script again to build: `node ue4build.js`
+1. If there are errors, AutomationTool.exe output can be found in the log file specified in `.ue4build.json`
+1. If it succeeds, a runable project complete with mod paks should be found in the `outputPath` directory specified in `.ue4build.json`
+
+## Get it Running (Manually)
 
 1. Clone the Repo
 1. Open ModSkeleton.uproject

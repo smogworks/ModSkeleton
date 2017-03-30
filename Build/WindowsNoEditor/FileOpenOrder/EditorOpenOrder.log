@@ -1,4 +1,4 @@
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/ModSkeleton.uproject" 1
+"C:/Users/neonphog/projects/ModSkeleton/ModSkeleton.uproject" 1
 "../../../Engine/Plugins/2D/Paper2D/Paper2D.uplugin" 2
 "../../../Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin" 3
 "../../../Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin" 4
@@ -107,7 +107,7 @@
 "../../../Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin" 107
 "../../../Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin" 108
 "../../../Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin" 109
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/ModSkeletonExamplePluginA.uplugin" 110
+"../../../../../../Users/neonphog/projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/ModSkeletonExamplePluginA.uplugin" 110
 "..\..\..\Engine\Content\Internationalization\icudt53l\cnvalias.icu" 111
 "..\..\..\Engine\Content\Internationalization\icudt53l\res_index.res" 112
 "..\..\..\Engine\Content\Internationalization\icudt53l\plurals.res" 113
@@ -128,51 +128,51 @@
 "C:/Users/neonphog/AppData/Local/UnrealEngine/4.15/Saved/Config/Windows/Manifest.ini" 128
 "../../../Engine/Config/Base.ini" 129
 "../../../Engine/Config/BaseEngine.ini" 130
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Config/DefaultEngine.ini" 131
+"C:/Users/neonphog/projects/ModSkeleton/Config/DefaultEngine.ini" 131
 "../../../Engine/Config/Windows/WindowsEngine.ini" 132
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/Engine.ini" 133
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" 134
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/Engine.ini" 133
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" 134
 "../../../Engine/Config/BaseGame.ini" 135
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Config/DefaultGame.ini" 136
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/Game.ini" 137
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Game.ini" 138
+"C:/Users/neonphog/projects/ModSkeleton/Config/DefaultGame.ini" 136
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/Game.ini" 137
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Game.ini" 138
 "../../../Engine/Config/BaseInput.ini" 139
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/Input.ini" 140
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Input.ini" 141
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/Input.ini" 140
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Input.ini" 141
 "../../../Engine/Config/BaseEditor.ini" 142
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Config/DefaultEditor.ini" 143
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/Editor.ini" 144
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Editor.ini" 145
+"C:/Users/neonphog/projects/ModSkeleton/Config/DefaultEditor.ini" 143
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/Editor.ini" 144
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Editor.ini" 145
 "../../../Engine/Config/BaseEditorPerProjectUserSettings.ini" 146
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/EditorPerProjectUserSettings.ini" 147
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini" 148
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/EditorPerProjectUserSettings.ini" 147
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini" 148
 "../../../Engine/Config/BaseEditorSettings.ini" 149
 "C:/Users/neonphog/AppData/Local/UnrealEngine/4.15/Saved/Config/Windows/EditorSettings.ini" 150
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini" 151
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini" 151
 "../../../Engine/Config/BaseEditorLayout.ini" 152
 "C:/Users/neonphog/AppData/Local/UnrealEngine/4.15/Saved/Config/Windows/EditorLayout.ini" 153
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/EditorLayout.ini" 154
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/EditorLayout.ini" 154
 "../../../Engine/Config/BaseEditorKeyBindings.ini" 155
 "C:/Users/neonphog/AppData/Local/UnrealEngine/4.15/Saved/Config/Windows/EditorKeyBindings.ini" 156
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/EditorKeyBindings.ini" 157
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/EditorKeyBindings.ini" 157
 "../../../Engine/Config/BaseCompat.ini" 158
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/Compat.ini" 159
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Compat.ini" 160
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/Compat.ini" 159
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Compat.ini" 160
 "../../../Engine/Config/BaseLightmass.ini" 161
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/Lightmass.ini" 162
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini" 163
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/Lightmass.ini" 162
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini" 163
 "../../../Engine/Config/BaseScalability.ini" 164
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/Scalability.ini" 165
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Scalability.ini" 166
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/Scalability.ini" 165
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Scalability.ini" 166
 "../../../Engine/Config/BaseHardware.ini" 167
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/Hardware.ini" 168
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Hardware.ini" 169
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/GameUserSettings.ini" 170
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini" 171
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/Hardware.ini" 168
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/Hardware.ini" 169
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/GameUserSettings.ini" 170
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini" 171
 "../../../Engine/Content/Certificates/ThirdParty/cacert.pem" 172
 "../../../Engine/Config/BaseDeviceProfiles.ini" 173
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/DeviceProfiles.ini" 174
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/DeviceProfiles.ini" 175
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/DeviceProfiles.ini" 174
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/DeviceProfiles.ini" 175
 "../../../Engine/Config/ConsoleVariables.ini" 176
 "..\..\..\Engine\Content\Internationalization\icudt53l\lang\ar.res" 177
 "..\..\..\Engine\Content\Internationalization\icudt53l\lang\es.res" 178
@@ -1278,10 +1278,10 @@
 "../../../Engine/Content/VREditor/Sounds/VR_grab.uasset" 1278
 "../../../Engine/Content/VREditor/TransformGizmo/TranslateHandleLong.uasset" 1279
 "../../../Engine/Content/VREditor/TransformGizmo/RotationHandleFull.uasset" 1280
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/GameplayTagsList.ini" 1281
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/GameplayTagsList.ini" 1282
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/GameplayTags.ini" 1283
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/GameplayTags.ini" 1284
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/GameplayTagsList.ini" 1281
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/GameplayTagsList.ini" 1282
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/GameplayTags.ini" 1283
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/GameplayTags.ini" 1284
 "../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 1285
 "../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 1286
 "../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 1287
@@ -1290,8 +1290,8 @@
 "../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 1290
 "../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 1291
 "../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 1292
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/TemplateDefs.ini" 1293
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/TemplateDefs.ini" 1294
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/TemplateDefs.ini" 1293
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/TemplateDefs.ini" 1294
 "../../../Engine/Content/EngineFonts/Roboto.uasset" 1295
 "../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 1296
 "../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 1297
@@ -1330,14 +1330,14 @@
 "../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 1330
 "../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 1331
 "../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 1332
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/AssetRegistryCache/5a627529.bin" 1333
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/AssetRegistryCache/2657c409.bin" 1334
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/AssetRegistryCache/1d5167fa.bin" 1335
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/AssetRegistryCache/866581fd.bin" 1336
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/AssetRegistryCache/94c5d5a7.bin" 1337
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/AssetRegistryCache/8c0e1344.bin" 1338
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/AssetRegistryCache/c4fe8e21.bin" 1339
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/AssetRegistryCache/3fbcf422.bin" 1340
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/AssetRegistryCache/5a627529.bin" 1333
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/AssetRegistryCache/2657c409.bin" 1334
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/AssetRegistryCache/1d5167fa.bin" 1335
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/AssetRegistryCache/866581fd.bin" 1336
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/AssetRegistryCache/94c5d5a7.bin" 1337
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/AssetRegistryCache/8c0e1344.bin" 1338
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/AssetRegistryCache/c4fe8e21.bin" 1339
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/AssetRegistryCache/3fbcf422.bin" 1340
 "..\..\..\Engine\Content\Internationalization\icudt53l\coll\ucadata.icu" 1341
 "..\..\..\Engine\Content\Internationalization\icudt53l\nfc.nrm" 1342
 "..\..\..\Engine\Content\Internationalization\icudt53l\coll\en_US.res" 1343
@@ -1357,12 +1357,12 @@
 "../../../Engine/Content/EngineMeshes/Cylinder.uasset" 1357
 "../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 1358
 "C:/Users/neonphog/AppData/Local/UnrealEngine/4.15/Saved/Config/Windows/SourceControlSettings.ini" 1359
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/SourceControlSettings.ini" 1360
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/SourceControlSettings.ini" 1361
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/InternationalizationExport.ini" 1362
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/InternationalizationExport.ini" 1363
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Config/Windows/TranslationPickerSettings.ini" 1364
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/TranslationPickerSettings.ini" 1365
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/SourceControlSettings.ini" 1360
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/SourceControlSettings.ini" 1361
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/InternationalizationExport.ini" 1362
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/InternationalizationExport.ini" 1363
+"C:/Users/neonphog/projects/ModSkeleton/Saved/Config/Windows/TranslationPickerSettings.ini" 1364
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/Config/CoalescedSourceConfigs/TranslationPickerSettings.ini" 1365
 "../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 1366
 "../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 1367
 "../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 1368
@@ -1390,96 +1390,96 @@
 "../../../Engine/Content/BasicShapes/Cylinder.uasset" 1390
 "../../../Engine/Content/BasicShapes/Cone.uasset" 1391
 "../../../Engine/Content/BasicShapes/Plane.uasset" 1392
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Intermediate/CachedAssetRegistry.bin" 1393
-"C:/Users/neonphog/Documents/Unreal Projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Saved/Cooked/WindowsNoEditor/ModSkeleton/CookedIniVersion.txt" 1394
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Releases/1.0/WindowsNoEditor/AssetRegistry.bin" 1395
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Content/DefaultMap.umap" 1396
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 1397
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 1398
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 1399
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 1400
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 1401
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 1402
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 1403
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 1404
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 1405
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 1406
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 1407
-"../../../Engine/Content/Maps/Entry.umap" 1408
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Content/ModSkeletonGameMode.uasset" 1409
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Content/ModListUI/ModListContainer2.uasset" 1410
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 1411
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 1412
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 1413
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 1414
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 1415
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 1416
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 1417
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 1418
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 1419
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 1420
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 1421
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 1422
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 1423
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 1424
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 1425
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 1426
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 1427
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 1428
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset" 1429
-"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset" 1430
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset" 1431
-"../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset" 1432
-"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset" 1433
-"../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset" 1434
-"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset" 1435
-"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset" 1436
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset" 1437
-"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset" 1438
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset" 1439
-"../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset" 1440
-"../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset" 1441
-"../../../Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset" 1442
-"../../../Engine/Content/Tutorial/SubEditors/ParticleSystemEditorTutorial.uasset" 1443
-"../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset" 1444
-"../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset" 1445
-"../../../Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset" 1446
-"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset" 1447
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Manage_Mode.uasset" 1448
-"../../../Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset" 1449
-"../../../Engine/Config/HTML5/HTML5Engine.ini" 1450
-"../../../Engine/Content/EngineMeshes/Cube.uasset" 1451
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset" 1452
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset" 1453
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Tutorial_DM.uasset" 1454
-"../../../Engine/Content/EditorMeshes/EditorCube.uasset" 1455
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" 1456
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialParticleSystem.uasset" 1457
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset" 1458
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_SmokeSubUV_8X8.uasset" 1459
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_soft_smoke.uasset" 1460
-"../../../Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset" 1461
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset" 1462
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset" 1463
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset" 1464
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset" 1465
-"../../../Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset" 1466
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset" 1467
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset" 1468
-"../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset" 1469
-"../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset" 1470
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset" 1471
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset" 1472
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset" 1473
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset" 1474
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset" 1475
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Content/MOD_SKELETON.uasset" 1476
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Content/ExampleStringGeneratorHelper.uasset" 1477
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Content/ModDescriptionWidget.uasset" 1478
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Content/Icon128.uasset" 1479
+"../../../../../../Users/neonphog/projects/ModSkeleton/Intermediate/CachedAssetRegistry.bin" 1393
+"../../../../../../Users/neonphog/projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Content/ExampleStringGeneratorHelper.uasset" 1394
+"../../../../../../Users/neonphog/projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Content/Icon128.uasset" 1395
+"../../../../../../Users/neonphog/projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Content/ModDescriptionWidget.uasset" 1396
+"../../../../../../Users/neonphog/projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Content/MOD_SKELETON.uasset" 1397
+"C:/Users/neonphog/projects/ModSkeleton/Plugins/ModSkeletonExamplePluginA/Saved/Cooked/WindowsNoEditor/ModSkeleton/CookedIniVersion.txt" 1398
+"../../../../../../Users/neonphog/projects/ModSkeleton/Releases/1.0/WindowsNoEditor/AssetRegistry.bin" 1399
+"../../../../../../Users/neonphog/projects/ModSkeleton/Content/DefaultMap.umap" 1400
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 1401
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 1402
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 1403
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 1404
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 1405
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 1406
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 1407
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 1408
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 1409
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 1410
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 1411
+"../../../Engine/Content/Maps/Entry.umap" 1412
+"../../../../../../Users/neonphog/projects/ModSkeleton/Content/ModSkeletonGameMode.uasset" 1413
+"../../../../../../Users/neonphog/projects/ModSkeleton/Content/ModListUI/ModListContainer.uasset" 1414
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 1415
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 1416
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 1417
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 1418
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 1419
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 1420
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 1421
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 1422
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 1423
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 1424
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 1425
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 1426
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 1427
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 1428
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 1429
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 1430
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 1431
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 1432
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset" 1433
+"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset" 1434
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset" 1435
+"../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset" 1436
+"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset" 1437
+"../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset" 1438
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset" 1439
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset" 1440
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset" 1441
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset" 1442
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset" 1443
+"../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset" 1444
+"../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset" 1445
+"../../../Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset" 1446
+"../../../Engine/Content/Tutorial/SubEditors/ParticleSystemEditorTutorial.uasset" 1447
+"../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset" 1448
+"../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset" 1449
+"../../../Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset" 1450
+"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset" 1451
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Manage_Mode.uasset" 1452
+"../../../Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset" 1453
+"../../../Engine/Config/HTML5/HTML5Engine.ini" 1454
+"../../../Engine/Content/EngineMeshes/Cube.uasset" 1455
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset" 1456
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset" 1457
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Tutorial_DM.uasset" 1458
+"../../../Engine/Content/EditorMeshes/EditorCube.uasset" 1459
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" 1460
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialParticleSystem.uasset" 1461
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset" 1462
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_SmokeSubUV_8X8.uasset" 1463
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_soft_smoke.uasset" 1464
+"../../../Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset" 1465
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset" 1466
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset" 1467
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset" 1468
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset" 1469
+"../../../Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset" 1470
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset" 1471
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset" 1472
+"../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset" 1473
+"../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset" 1474
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset" 1475
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset" 1476
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset" 1477
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset" 1478
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset" 1479
 "C:/Users/neonphog/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/7/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_60865401405208DD2CEA5BA073707__EC304A16B666078F443A82FA0472C058659B5CAE.udd" 1480
 "C:/Users/neonphog/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_60865401405208DD2CEA5BA073707__6B62A234D31B873A40050F67BFC836812E20F831.udd" 1481
-"../../../../../../Users/neonphog/Documents/Unreal Projects/ModSkeleton/Saved/Collections/PackagesRemovedFromChunk0.collection" 1482
+"../../../../../../Users/neonphog/projects/ModSkeleton/Saved/Collections/PackagesRemovedFromChunk0.collection" 1482
 "../../../Engine/Shaders/ACES.usf" 1483
 "../../../Engine/Shaders/AtmosphereCommon.usf" 1484
 "../../../Engine/Shaders/AtmospherePrecompute.usf" 1485
